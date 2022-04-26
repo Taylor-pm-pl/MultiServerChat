@@ -1,0 +1,16 @@
+# Main Config of MultiServerChat
+# Automatically update when new version is available!
+auto-updater: true
+# Name (Type) of Current Server (No Space)
+Current-server: Lobby
+# All server names (modes) except Current-server
+List-server: ["SkyBlock", "OneBlock"]
+# MultiServerChat chat format
+Format-chat: "{server} {name} -> {message}"
+# MySQL Database Connection Information
+Database:
+  host: 127.0.0.1
+  user: DavidGlitch04
+  password: hello_world
+  db: MultiServerChat
+  port: 3306

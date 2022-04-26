@@ -1,0 +1,12 @@
+name: MultiServerChat
+version: 0.0.1
+api: 4.0.0
+main: davidglitch04\MultiServerChat\Loader
+src-namespace-prefix: davidglitch04\MultiServerChat
+author: DavidGlitch04
+website: https://github.com/DavidGlitch04
+
+permissions:
+  multiserverchat.allow.command:
+    default: op
+    description: "Allow player to use multi chat"
