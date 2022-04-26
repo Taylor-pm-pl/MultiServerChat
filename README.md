@@ -22,6 +22,7 @@
 4. change the name (type) of `Current-Server` in config.yml For EX: You are setting up at the Lobby server, then `Current-Server` is set to Lobby
 5. Enter all names (categories) except `Current-Server` for which you want to have connected chat in `List-server` in config.yml
 6. Change the information in `DataBase` as `host` is the network ipv4 of the device you created in step 2, user is the user you created in step 2, password is the password you created in step 2.After, Save and test.
+7. Do the same with the servers in the `List-server` But with the same DataBase
 
 # Additional Notes
 
