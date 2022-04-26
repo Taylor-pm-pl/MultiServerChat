@@ -71,9 +71,6 @@ class MySQLProvider {
         } else {
             while ($row = $result->fetch_assoc()) {
                 $name = str_replace(" ", "_", $row["name"]);
-                if (!isset($this->players[$name])) {
-                    $this->players[$name] = $this->msc->getServer()->getOfflinePlayer($name);
-                }
                 $this->msc->getServer()->broadcastMessage($this->getFormat([$row["server"], $row["name"], $message = $row["message"]]));
                 $del = $this->db->query("DELETE FROM " . $this->msc->getConfig()->get("Current-server") . " WHERE id = " . $row["id"]);
                 if (!$del) {
